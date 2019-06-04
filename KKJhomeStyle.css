@@ -100,6 +100,12 @@ font-size: 20px;
     /*color: rgba(255,255,255,0.5);*/
     color: rgba(255,0,0,0.6);
 }
+.fa-facebook-square .fa-youtube-play{
+  color: rgb(255,255,255);
+}
+.fa-facebook-square .fa-youtube-play:hover{
+  color: rgba(255,0,0,0.6);
+}
 @media only screen and (min-height: 400px) {
     .navbar-dark .navbar-nav .nav-link: {
         background-color: lightblue;
@@ -218,6 +224,15 @@ font-size: 20px;
   /*background-color: #89CC03;*/
   background-color: rgba(255,0,0,0.5);
   opacity:0.5;
+}
+/*.navicon:hover{
+color:red;
+background-color: rgba(0,0,0,0.2);
+
+}*/
+.navbar-dark .navbar-nav .navicon:hover {
+    /*color: rgba(255,255,255,0.5);*/
+    color: rgba(255,0,0,0.6);
 }
 
 /*loader*/

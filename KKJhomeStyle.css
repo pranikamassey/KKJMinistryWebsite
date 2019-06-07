@@ -503,6 +503,7 @@ i.fa.fa.fa-heart-o.icon {
 
   -webkit-animation: zoom 1s;
   animation: zoom 1s; 
+  color: red;
   opacity: 0.7;
 }
 
@@ -516,7 +517,7 @@ ul.list-unstyled a:hover {
     text-decoration: none;
 }
 .footer-copyright{
-  background-color: black;
+  background-color: rgb(20,20,20);
 
 }
 

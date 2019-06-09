@@ -394,6 +394,15 @@ hr{
     margin: 1em 0;
     padding: 0; 
 }
+.fonttext{
+  /*font-family: Snell Roundhand, cursive;*/
+  
+  font-family: URW Chancery L, cursive;
+}
+.w3-tangerine {
+  font-family: 'Tangerine', serif;
+  
+}
 /*slider end*/
 /*.pattern{
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHiaj3hX_dsm1_p3AkEE_LHhRA1uLbpMeMIEYtxm-igIIQCPFdhg");

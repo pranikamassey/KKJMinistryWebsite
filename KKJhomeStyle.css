@@ -394,6 +394,14 @@ hr{
     margin: 1em 0;
     padding: 0; 
 }
+.card{
+      background-color: rgba(0,0,0,0.6);
+
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      padding: 15px;
+      margin-top: 70px;
+      margin-bottom: 70px;
+    }
 .fonttext{
   /*font-family: Snell Roundhand, cursive;*/
   

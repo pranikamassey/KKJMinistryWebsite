@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    
+ <link rel="stylesheet" href="http://themepure.net/tf/purex-preview/purex/css/plugins.css">
+
+    <link rel="apple-touch-icon" href="http://themepure.net/tf/purex-preview/purex/images/apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="logo100.png">
+
+    <!-- Google fonts (font-family: 'Poppins', sans-serif;) -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <!-- Google fonts (font-family: 'Montserrat', sans-serif;) -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="http://themepure.net/tf/purex-preview/purex/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="http://themepure.net/tf/purex-preview/purex/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="Icon-font-7-filled-PIXEDEN-v-1.2.0/assets/docs/style.css">
+    <link rel="stylesheet" href="icons/pe-icon-7-filled/css/helper.css">
+    <link rel="stylesheet" href="icon2/assets/Pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="https://locomotive.ca/assets/locomotive/styles/main.css">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="http://themepure.net/tf/purex-preview/purex/style.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="http://themepure.net/tf/purex-preview/purex/css/custom.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="http://themepure.net/tf/purex-preview/purex/css/responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://themepure.net/tf/purex-preview/purex/js/vendor/modernizr-2.8.3.min.js"></script>
+    <link rel="stylesheet" href="https://locomotive.ca/assets/locomotive/styles/main.css">
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+
+    <script src="https://wchat.freshchat.com/js/widget.js"></script>
+    <style>
+    li li {
+       display: none;
+   }
+
+
+   li:hover > ul{
+    display: block;
+}
+
+.header-area .logo-menu-wrap nav.menu ul li:hover a, .header-area .logo-menu-wrap nav.menu ul li.current a {
+   color: white; 
+   font-size: 20px;
+   /*text-transform: uppercase;*/
+}
+.header-area .logo-menu-wrap nav.menu ul li a {
+    font-size: 16px;
+}
+
+.slider .slider-inner .slider__down-array a.scroll-to-section, .slider .slider-inner .slider__down-array a.scroll-to-section--without-offset {
+    bottom: 80px;
+}
+.new_idea{
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+    .min-height: 45px;
+}
+.mean-container a.meanmenu-reveal span {
+    display: block;
+    background: #fff;
+    height: 3px;
+    margin-top: 3px;
+}
+
+.scrolltop {
+    z-index: 100;
+    display:none;
+    width:100%;
+    margin:0 auto;
+    position:fixed;
+    bottom:80px;
+    right:10px; 
+}
+.header-area .logo-menu-wrap nav.menu ul li.na-dropdown .na-dropdown__content {
+    background: #FFFFFF;
+}
+
+.something_different{
+    background: #F7F7F7;
+}
+
+.scroll {
+    position:absolute;
+    right:2%;
+    bottom:20px;
+    height: 56px;
+    width: 56px;
+    /*    padding-top: 16px;*/
+    background:rgba(178,178,178,0.7);
+    text-align: center;
+    margin: 0 0 0 0;
+    cursor:pointer;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;        
+    background-color:#4D84F1;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+.scroll:hover {
+    background:rgba(178,178,178,1.0);
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;        
+}
+.scroll:hover .fa {
+    padding-top:-10px;
+}
+.scroll .fa {
+    font-size:30px;
+    margin-top:-5px;
+    margin-left:1px;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;    
+}
+
+
+.dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    /*    padding: 14px 16px;*/
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0d0d0d;
+    width: 97%;
+    /*max-width: 95%;*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #787878;
+    min-width: 260px;
+    /*    padding: 12px 16px;*/
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    /*background-color: #ddd;*/
+    color: #000000;
+}
+
+.dropbtn:hover .dropdown-content {
+    display: block;
+}
+a:hover{
+    color: black;
+}
+
+a{
+   color: white; 
+}
+
+.extra_class:nth-child(odd){
+    background-color: #FFFFFF;
+    height: 300px;
+    padding-top: 15px;
+}
+
+
+.extra_class:nth-child(even){
+    background-color: #F7F7F7;
+    height: 300px;
+    padding-top: 15px;
+}
+@media (min-width: 991px){
+
+    .footer-widgets__title{
+        font-weight: 510;
+        text-align: left;
+        font-size: 20px;
+    }   
+    .footer-widgets .footer-widgets__single .footer-widgets__title {
+      margin: 10%;
+  }  
+}
+
+.type_10 {
+    border: 0;
+    height: 1.5px;
+    background-image: url(type_10.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+.extra_class_center li{
+    list-style: none;
+    /*text-align: justify;*/
+}
+.thumbnail{
+    border: none;
+    /*outline: 1px solid #ddd;*/
+    /*outline-offset: -4px;*/
+}
+.header-area.sticky {
+    position: fixed;
+    padding: 0px;
+}
+.header-area{
+    padding: 0px;
+    background-color: rgba(0,0,0,0.1);
+    padding: 15px 0px 15px 0px;
+}
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.service-box:hover {
+    -webkit-box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.34);
+    box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.34);
+    margin-top:-10px;
+    margin-bottom: 10px;
+}
+#pixey_dust:hover {
+    width: 180px;
+    height: 180px;
+}
+
+#pixey_dust1:hover {
+    width: 180px;
+    height: 180px;
+}
+
+#pixey_dust2:hover {
+    width: 180px;
+    height: 180px;
+}
+.icons_imp{
+        height: 60px;
+        width: 60px;
+    }
+#pixey_dust3:hover {
+    width: 180px;
+    height: 180px;
+}
+
+#pixey_dust4:hover {
+    width: 180px;
+    height: 180px;
+}
+.work{
+    height:180px;
+}
+@media only screen and (max-width: 1200px) and (min-width: 992px){
+.icons_imp{
+        height: 45px;
+        width: 45px;
+    }
+.work .work__single a h6{
+    font-size: 12px;
+}
+.work{
+    height: 160px;
+}
+
+#pixey_dust:hover {
+    width: 160px;
+    height: 160px;
+}
+
+#pixey_dust1:hover {
+    width: 160px;
+    height: 160px;
+}
+
+#pixey_dust2:hover {
+    width: 160px;
+    height: 160px;
+}
+
+#pixey_dust3:hover {
+    width: 160px;
+    height: 160px;
+}
+
+#pixey_dust4:hover {
+    width: 160px;
+    height: 160px;
+}   
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+.icons_imp{
+        height: 35px;
+        width: 35px;
+    }
+
+.work .work__single a h6{
+    font-size: 10px;
+}
+.work{
+    height: 140px;
+}
+
+#pixey_dust:hover {
+    width: 130px;
+    height: 130px;
+}
+
+#pixey_dust1:hover {
+    width: 130px;
+    height: 130px;
+}
+
+#pixey_dust2:hover {
+    width: 130px;
+    height: 130px;
+}
+
+#pixey_dust3:hover {
+    width: 130px;
+    height: 130px;
+}
+
+#pixey_dust4:hover {
+    width: 130px;
+    height: 130px;
+}
+
+}
+@media only screen and (max-width: 767px) and (min-width: 480px){
+.icons_imp{
+        height: 45px;
+        width: 45px;
+    }
+.work .work__single a h6{
+    font-size: 10px;
+}
+.work{
+    height: 400px;
+}
+
+#pixey_dust:hover {
+    width: 130px;
+    height: 130px;
+}
+#pixey_dust {
+    margin-left: 65%;
+}
+
+#pixey_dust1:hover {
+    width: 130px;
+    height: 130px;
+}
+
+#pixey_dust2:hover {
+    width: 130px;
+    height: 130px;
+}
+
+#pixey_dust3:hover {
+    width: 130px;
+    height: 130px;
+}
+
+#pixey_dust4:hover {
+    width: 130px;
+    height: 130px;
+}
+#pixey_dust4 {
+    margin-left: 65%;
+}
+
+}
+@media only screen and (max-width: 480px){
+.letter{
+    font-size: 3.5em;
+    letter-spacing: 0px;
+}
+.work{
+    height: 600px;
+}  
+.icons_imp{
+        height: 45px;
+        width: 45px;
+    }
+.work .work__single a h6{
+    font-size: 10px;
+}
+
+#pixey_dust:hover {
+    width: 130px;
+    height: 130px;
+}
+#pixey_dust {
+    margin-left: 65%;
+}
+
+#pixey_dust1:hover {
+    width: 130px;
+    height: 130px;
+}
+
+#pixey_dust2:hover {
+    width: 130px;
+    height: 130px;
+}
+
+#pixey_dust3:hover {
+    width: 130px;
+    height: 130px;
+}
+
+#pixey_dust4:hover {
+    width: 130px;
+    height: 130px;
+}  
+}
+.header-area .logo-menu-wrap nav.menu ul li.na-dropdown .na-dropdown__content{
+    border-top: none; 
+}
+
+
+</style>
+</head>
+<body>
+    <header id="sticky-header" class="header-area right-sidebar-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="logo-menu-wrap hidden-sm hidden-xs">
+                            <div class="logo">
+                                <a href="index.php"><img src="logo.png" alt="logo" style="width: 125px;height: auto; margin-left: 2%;"></a>
+                            </div>
+                            <!-- Start main menu -->
+                            <nav class="menu">
+                                <ul>
+
+                               <li onmouseover="hide_menu();"><a href="index.php">Home</a></li>
+                                <li onmouseover="hide_menu();"><a href="Aboutus.php">About us</a></li>
+                                <li onmouseover="show_menu();" class="dropbtn">
+                                    <a href="#">Services</a>
+                                </li>
+                                <!-- <li onmouseover="show_menu();"><a href="portfolio.php">Portfolio</a></li> -->
+                                <li onmouseover="hide_menu();" class="na-dropdown"><a href="#">Portfolio</a>
+                                    <ul class="na-dropdown__content">
+                                        <hr class="type_10" style="margin: 0px;">
+                                        <li><a href="portfolio.php" style="color: #787878;font-weight: 500">Web</a></li>
+                                        <li><a href="portfolio.php" style="color: #787878;font-weight: 500" class="something_different">Mobile</a></li>
+                                        <li><a href="portfolio.php" style="color: #787878;font-weight: 500">Gaming</a></li>
+                                        <li><a href="portfolio.php" style="color: #787878;font-weight: 500" class="something_different">Marketing</a></li>
+                                        <li><a href="portfolio.php" style="color: #787878;font-weight: 500">UI/UX</a></li>
+                                        <li><a href="portfolio.php" style="color: #787878;font-weight: 500" class="something_different">Data Analytics</a></li>
+                                    </ul>
+                                </li>
+                                <li onmouseover="hide_menu();"><a href="http://daphnislabs.com/blog/" target="_blank">Blog</a></li>
+                                <li onmouseover="hide_menu();"><a onclick="chngimg();changeblur()" class="js-contact-open w3-bar-item w3-button  w3-border-bottom" style="cursor:pointer;">Contact</a></li>
+                                </ul>
+                            </nav>
+                            <!-- End main menu -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-menu hidden-md hidden-lg mean-container">
+                <div class="mean-bar">
+                    <a href="#nav" onclick="show_ul();" id="triple_dot" class="meanmenu-reveal" style="right: 0px; left: auto; text-align: center; text-indent: 0px; font-size: 18px;">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                    <a href="#nav" onclick="hide_ul();" id="cross_mob" class="meanmenu-reveal meanclose" style="right: 0px; left: auto; text-align: center; text-indent: 0px; display: none; font-size: 18px;">X</a>
+                    <nav class="mean-nav">
+                        <ul id="mob_ul" style="display: none;">
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="Aboutus.php">About</a></li>
+                            <li class="na-dropdown"><a href="#">Services</a>
+                                <ul id="service_list" class="na-dropdown__content" style="display: none;">
+                                    <li class="na-dropdown" id="service1"><a href="services.php#mob">Mobile app Development</a>
+                                        <ul id="service_list1" class="na-dropdown__content" style="display: none;">
+                                            <li id="service1_1"><a href="Android Application Development.php">Android Application Development</a></li>
+                                            <li id="service1_2"><a href="iPhone App Development.php">iPhone App Development</a></li>
+                                            <li id="service1_3"><a href="Cross Platform App Development.php">Cross Platform App Development</a></li>
+                                            <li id="service1_4"><a href="VR_AR Application Development.php">VR/AR App Development</a></li>
+                                            <li id="service1_5"><a href="Ecommerce App Development.php">Ecommerce App Development</a></li>
+                                            <li id="service1_6"><a href="Business App Development.php">Business App Development</a></li>
+                                            <li id="service1_7"><a href="Restaurant App Development.php">Restaurant App Development</a></li>
+                                        </ul>
+                                        <a class="mean-expand" id="plus_service1" href="#" onclick="show_mob_service1(1);" style="font-size: 14px">+</a>
+                                    </li>
+                                    <li class="na-dropdown" id="service2"><a href="services.php#web">Web development</a>
+                                        <ul id="service_list2" class="na-dropdown__content" style="display: none;">
+                                            <li id="service2_1"><a href="Cross Platform Web Development.php">Cross Platform Web Development</a></li>
+                                            <li id="service2_2"><a href="Reactjs Web Development.php">Reactjs Web Development</a></li>
+                                            <li id="service2_3"><a href="MEAN Stack Development.php">MEAN Stack Development</a></li>
+                                            <li id="service2_4"><a href="LAMP Stack Development.php">LAMP Stack Development</a></li>
+                                            <li id="service2_5"><a href="MERN Stack Development.php">MERN Stack Development</a></li>
+                                            <li id="service2_7"><a href="MEVN Stack Development.php">MEVN Stack Development</a></li>
+                                        </ul>
+                                        <a class="mean-expand" id="plus_service2" href="#" onclick="show_mob_service1(2);" style="font-size: 14px">+</a>
+                                    </li>
+                                    <li class="na-dropdown" id="service3"><a href="services.php#soft">Software Development</a>
+                                        <ul id="service_list3" class="na-dropdown__content" style="display: none;">
+                                            <li id="service3_1"><a href="Blockchain Development.php">Blockchain Development</a></li>
+                                            <li id="service3_2"><a href="VR AR Development.php">VR/AR Development</a></li>
+                                            <li id="service3_3"><a href="QT Development.php">QT Development</a></li>
+                                            <li id="service3_4"><a href="CMS Development.php">CMS Development</a></li>
+                                            <li id="service3_5"><a href="ERP Development.php">ERP Development</a></li>
+                                            <li id="service3_6"><a href="CRM Development.php">CRM Development</a></li>
+                                            <li id="service3_7"><a href="POS Development.php">POS Development</a></li>
+                                        </ul>
+                                        <a class="mean-expand" id="plus_service3" href="#" onclick="show_mob_service1(3);" style="font-size: 14px">+</a>
+                                    </li>
+                                    <li class="na-dropdown" id="service4"><a href="services.php#game">Game Development</a>
+                                        <ul id="service_list4" class="na-dropdown__content" style="display: none;">
+                                            <li id="service4_1"><a href="Cross Platform Game Development.php">Cross Platform Game Development</a></li>
+                                            <li id="service4_2"><a href="Casual Game Development.php">Casual Game Development</a></li>
+                                            <li id="service4_3"><a href="Unity3D Development.php">Unity3D Development</a></li>
+                                            <li id="service4_4"><a href="E-Learning Game Development.php">E-Learning Game Development</a></li>
+                                            <li id="service4_5"><a href="VR AR Game Development.php">VR/AR Game Development</a></li>
+                                            <li id="service4_6"><a href="HTML5 Game Development.php">HTML5 Game Development</a></li>
+                                            <li id="service4_7"><a href="Cocos2dx Game Development.php">Cocos2dx Game Development</a></li>
+                                        </ul>
+                                        <a class="mean-expand" id="plus_service4" href="#" onclick="show_mob_service1(4);" style="font-size: 14px">+</a>
+                                    </li>
+                                    <li class="na-dropdown" id="service5"><a href="services.php#data">Data Analytics</a>
+                                        <ul id="service_list5" class="na-dropdown__content" style="display: none;">
+                                            <li id="service5_1"><a href="Data Analysis and Optimization.php">Data Analysis and Optimization</a></li>
+                                            <li id="service5_2"><a href="Visualization.php">Visualization</a></li>  
+                                            <li id="service5_3"><a href="Business Intelligence.php">Business Intelligence 
+                                            </a></li>
+                                            <li id="service5_4"><a href="Data Management.php">Data Management </a></li>
+                                            <li id="service5_5"><a href="Decentralized.php">Decentralized network based Analytics</a></li>
+                                            <li id="service5_6"><a href="SentimentAnalysis.php">Sentiment analysis</a></li>
+                                            <li id="service5_7"><a href="Attribution.php">Attribution Modeling</a></li>
+                                        </ul>
+                                        <a class="mean-expand" id="plus_service5" href="#" onclick="show_mob_service1(5);" style="font-size: 14px">+</a>
+                                    </li>
+                                </ul>
+                                <a class="mean-expand" id="plus_service" href="#" onclick="show_mob_service();" style="font-size: 18px">+</a>
+                            </li>
+                            <li class="na-dropdown"><a href="#">Portfolio</a>
+                                <ul id="port_list" class="na-dropdown__content" style="display: none;">
+                                    <li id="port1"><a href="portfolio.php">Web</a></li>
+                                    <li id="port2"><a href="portfolio.php">Mobile</a></li>
+                                    <li id="port3"><a href="portfolio.php">Gaming</a></li>
+                                    <li id="port4"><a href="portfolio.php">Marketing</a></li>
+                                    <li id="port5"><a href="portfolio.php">UI/UX</a></li>
+                                    <li id="port6"><a href="portfolio.php">Data Analytics</a></li>
+                                </ul>
+                                <a class="mean-expand" id="plus_port" href="#" onclick="show_mob_port();" style="font-size: 18px">+</a>
+                            </li>
+                            <li><a href="http://daphnislabs.com/blog/">Blog</a></li>
+                            <li><a href="#section-work" onclick="chngimg();" class="js-contact-open w3-bar-item w3-button  w3-border-bottom">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <a class="mobile-logo" href="index.php"><img src="logo.png" alt="logo" style="width: 125px;height: auto; margin-left: 2%; margin-top: -5%;"></a>
+            </div>
+
+
+                       <div class="container-fluid hidden-sm hidden-xs" style="padding-right: 10px">
+                           <div onmouseover="show_menu();" onmouseleave="hide_menu();" id="drop" class="dropdown-content">
+    <!--
+                                                    <center>
+                                                  <a href="">Mobile App Development</a><br>
+                                                  <a href="#">Web Development</a><br>
+                                                  <a href="#">Software Development</a><br>
+                                                  <a href="#">Game Development</a><br>
+                                                  <a href="#">Marketing and Branding Services</a><br>
+                                                  <a href="#">Data Analytics</a><br>
+                                                  </center>
+                                              -->
+                                              <div class="col-md-2 col-sm-6 extra_class">
+                                                <div class="footer-widgets__single">
+                                                    <h5 class="footer-widgets__title text-capitalize " style="color:black;" style="color: black;"><a href="services.php#mob">Mobile application <br>Development</a></h5>
+                                                    <hr class="type_10">
+                                                    <ul class="extra_class_center">
+                                                        <li role="separator" class="divider"></li>
+                                                        <li><a href="Android Application Development.php">Android Application Development</a></li>
+                                                        <li><a href="iPhone App Development.php">iPhone App Development</a></li>
+                                                        <li><a href="Cross Platform App Development.php">Cross Platform App Development</a></li>
+                                                        <li><a href="VR_AR Application Development.php">VR/AR App Development</a></li>
+                                                        <li><a href="Ecommerce App Development.php">Ecommerce App Development</a></li>
+                                                        <li><a href="Business App Development.php">Business App Development</a></li>
+                                                        <li><a href="Business App Development.php">Restaurant App Development</a></li>
+    <!--
+                                        <li><a href="#">Fitness App Development</a></li>
+                                        <li><a href="#">Utility App Development</a></li>
+                                        <li><a href="#">B2B App Development</a></li>
+                                        <li><a href="#">Photography app Development</a></li>
+                                    -->
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 extra_class">
+                            <div class="footer-widgets__single">
+                                <h5 class="footer-widgets__title text-capitalize " style="color:black;"><a href="services.php#web">Web<br> Development</a></h5>
+                                <hr class="type_10">
+                                <ul class="extra_class_center">
+                                    <li><a href="Cross Platform Web Development.php">Cross Platform Web Development</a></li>
+                                    <li><a href="Reactjs Web Development.php">Reactjs Web Development</a></li>
+                                    <li><a href="MEAN Stack Development.php">MEAN Stack Development</a></li>
+                                    <li><a href="LAMP Stack Development.php">LAMP Stack Development</a></li>
+                                    <li><a href="MERN Stack Development.php">MERN Stack Development</a></li>
+                                    <li><a href="MEVN Stack Development.php">MEVN Stack Development</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 extra_class">
+                            <div class="footer-widgets__single">
+                                <h5 class="footer-widgets__title text-capitalize " style="color:black;"><a href="services.php#soft">Software <br>Development</a></h5>
+                                <hr class="type_10">
+                                <ul class="extra_class_center">
+                                    <li><a href="Blockchain Development.php">Blockchain Development</a></li>
+                                    <li><a href="VR AR Development.php">VR/AR Development</a></li>
+                                    <li><a href="QT Development.php">QT Development</a></li>
+                                    <li><a href="CMS Development.php">CMS Development</a></li>
+                                    <li><a href="ERP Development.php">ERP Development</a></li>
+                                    <li><a href="CRM Development.php">CRM Development</a></li>
+                                    <li><a href="POS Development.php">POS Development</a></li>
+    <!--
+                                        <li><a href="#">VOIP Development</a></li>
+                                        <li><a href="#">IOT Development</a></li>
+                                    -->
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 extra_class">
+                            <div class="footer-widgets__single">
+                                <h5 class="footer-widgets__title text-capitalize " style="color:black;"><a href="services.php#game">Game <br>Development</a></h5>
+                                <hr class="type_10">
+                                <ul class="extra_class_center">
+                                    <li><a href="Cross Platform Game Development.php">Cross Platform Game Development</a></li>
+                                    <li><a href="Casual Game Development.php">Casual Game Development</a></li>
+                                    <li><a href="Unity3D Development.php">Unity3D Development</a></li>
+                                    <li><a href="E-Learning Game Development.php">E-Learning Game Development</a></li>
+                                    <li><a href="VR AR Game Development.php">VR/AR Game Development</a></li>
+                                    <li><a href="HTML5 Game Development.php">HTML5 Game Development</a></li>
+                                    <li><a href="Cocos2dx Game Development.php">Cocos2dx Game Development</a></li>
+    <!--
+                                        <li><a href="#">Action Game Development</a></li>
+                                        <li><a href="#">Multiplayer Game Development</a></li>
+                                        <li><a href="#">FPS Game Development</a></li>
+                                        <li><a href="#">Casino Game Development</a></li>
+                                        <li><a href="#">RPG Game Development</a></li>
+                                        <li><a href="#">Puzzle Game Development</a></li>
+                                        <li><a href="#">Strategy Game Development </a></li>
+                                    -->
+
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-6 extra_class">
+                            <div class="footer-widgets__single">
+                                <h5 class="footer-widgets__title text-capitalize " style="color:black;"><a href="services.php#market">Marketing and <br>Branding service</a></h5>
+                                <hr class="type_10">
+                                <ul class="extra_class_center">
+                                    <li><a href="Social Media marketing.php">Social Media marketing</a></li>
+                                    <li><a href="Paid Media Marketing.php">Paid Media Marketing</a></li>
+                                    <li><a href="Search Engine Optimization.php">Search Engine Optimization</a></li>
+                                    <li><a href="Brand building.php">Brand building</a></li>
+                                    <li><a href="MediaBuying.php">Media buying</a></li>
+                                    <li><a href="TrafficGeneration.php">Traffic generation</a></li>
+                                    <li><a href="BrandCampaigning.php">Brand Campaigning</a></li>
+                                    <!--                                    <li><a href="#">Influencer Management</a></li>-->
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-6 extra_class">
+                            <div class="footer-widgets__single">
+                                <h5 class="footer-widgets__title text-capitalize " style="color:black;"><a href="services.php#data">Data <br>Analytics</a></h5>
+                                <hr class="type_10">
+                                <ul class="extra_class_center">
+                                    <li><a href="Data Analysis and Optimization.php">Data Analysis and Optimization</a></li>
+                                    <li><a href="Visualization.php">Visualization</a></li>  
+                                    <li><a href="Business Intelligence.php">Business Intelligence 
+                                    </a></li>
+                                    <li><a href="Data Management.php">Data Management </a></li>
+                                    <li><a href="Decentralized.php">Decentralized network based Analytics</a></li>
+                                    <li><a href="SentimentAnalysis.php">Sentiment analysis</a></li>
+                                    <li><a href="Attribution.php">Attribution Modeling</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </header>
+ <script type="text/javascript">
+        var i=0;
+        $("#specialcase").click(function(){
+            $("#specialcase_nav").css("background-color","black");
+            $("#sticky-header").css("background-color","black");
+            // $("#video-bg").css("margin-top","80px");
+       });
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $(".scrolla").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+           
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+   </script>
+
+</body>
+</html>

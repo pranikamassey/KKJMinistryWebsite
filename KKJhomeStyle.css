@@ -2,7 +2,12 @@ body {
   max-width: 100%; 
   overflow-x: hidden; 
 
+
 }
+.mar{
+  margin-top: 10%;
+}
+
 .body3{
   background-color: black;
 }
@@ -99,6 +104,7 @@ font-size: 20px;
 .navbar-dark .navbar-nav .nav-link:hover {
     /*color: rgba(255,255,255,0.5);*/
     /*color: rgba(255,0,0,0.6);*/
+    
     color:#FF353C;
 }
 .fa-facebook-square .fa-youtube-play{
@@ -333,7 +339,7 @@ background-color: rgba(0,0,0,0.2);
     /* Set a specific height */
     height: 620px;
      text-align: center; 
-     width: 110%;
+     width: 100%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -347,6 +353,7 @@ background-color: rgba(0,0,0,0.2);
   overflow-y: hidden;
   overflow: hidden;
   display: block;
+  margin-bottom: 10%;
 }
 .boxx{
   border:5px;

@@ -11,6 +11,16 @@ body {
 .body3{
   background-color: black;
 }
+.contactsocial{
+  width: 20%; 
+  height: auto;
+  padding: 5%;
+}
+.contactsocial2{
+  width: 85%; 
+  height: auto;
+  padding: 2%;
+}
 
 @-webkit-keyframes zoom {
   from {
